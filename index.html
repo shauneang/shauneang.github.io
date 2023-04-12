@@ -1,6 +1,5 @@
 <iframe style="display:none" name ="csrf-iframe"></iframe>
-<form method="POST" action="/transfer/{{ account.id }}">
-<form method="POST" action="transfer/0" target="csrf=ifram" id="csrf-form">
+<form method="POST" action="/transfer/{{ account.id }}" target="csrf=ifram" id="csrf-form">
     <div class="field">
         <div class="control">
             <input class="input is-large" type="text" name="account" placeholder="To account number" value="2">
